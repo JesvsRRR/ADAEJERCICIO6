@@ -6,6 +6,27 @@
 
 ### Codigo completo
 
+# 2. Resolución
+
+```bash
+    public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+
+        System.out.println("Ingresar filas [n]: ");
+        int n = sc.nextInt();
+        
+        if(n <= 0){
+           n = sc.nextInt();;
+        }  
+        System.out.println("Ingresar columnas [m]: ");
+        int m = sc.nextInt();
+        
+        if(m <= 0){
+           m = sc.nextInt();;
+        }
+```
+
+
 ```bash
 import java.util.Scanner;
 
