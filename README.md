@@ -207,18 +207,18 @@ public class Main {
 > II) Registro de numeros en la matriz rectangular o cuadratica
 
 - Complejidad de tiempo:
-  a) Matriz rectangular: 𝑂(d x e)
-  b) Matriz cuadratica: 𝑂(d²)
+  - a) Matriz rectangular: 𝑂(d x e)
+  - b) Matriz cuadratica: 𝑂(d²)
   
 - Complejidad de espacio:
-  a) Matriz rectangular: 𝑂(d x e)
-  b) Matriz cuadratica: 𝑂(d²)   
+  - a) Matriz rectangular: 𝑂(d x e)
+  - b) Matriz cuadratica: 𝑂(d²)   
 
 > III) Reccorido en espiral
 - Complejidad de tiempo:
-  a) Matriz rectangular: 𝑂(d x e)
-  b) Matriz cuadratica: 𝑂(d²)
+  - a) Matriz rectangular: 𝑂(d x e)
+  - b) Matriz cuadratica: 𝑂(d²)
   
 - Complejidad de espacio:
-  a) Matriz rectangular: 𝑂(d x e)
-  b) Matriz cuadratica: 𝑂(d²)   
+  - a) Matriz rectangular: 𝑂(d x e)
+  - b) Matriz cuadratica: 𝑂(d²)   
