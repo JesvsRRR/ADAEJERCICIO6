@@ -7,11 +7,9 @@
 ### Codigo completo
 
 ```bash
-package seis;
-
 import java.util.Scanner;
 
-public class SEIS {
+public class Main {
     
     public static void EspiralCuadrada(int d,int e){
     Scanner sc = new Scanner(System.in);    
