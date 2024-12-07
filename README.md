@@ -7,9 +7,11 @@
 ### Codigo completo
 
 ```bash
+package seis;
+
 import java.util.Scanner;
 
-public class Main {
+public class SEIS {
     
     public static void EspiralCuadrada(int d,int e){
     Scanner sc = new Scanner(System.in);    
@@ -28,6 +30,14 @@ public class Main {
         int derecha = e - 1;
         
         int indexElementos = 0;
+        
+    for(int i=0; i < d;i++){
+        for(int j=0; j < e;j++){
+            System.out.print("["+Matriz[i][j]+"]");
+        }
+        System.out.println("");
+    }
+        
     while (arriba <= abajo && izquierda <= derecha) {
            
             for (int i = izquierda; i <= derecha; i++) {
@@ -70,26 +80,7 @@ public class Main {
 
     public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
-    
-        System.out.println("1. Recorrer en matriz cuadrada");
-        System.out.println("2. Recorrer en matriz rectangular");
-        int escoger = sc.nextInt();
 
-        if(escoger == 1 || escoger == 2){
-            
-        if(escoger == 1){
-        System.out.println("Ingresar dimension [d]: ");
-        int d = sc.nextInt();
-        
-        if(d <= 0){
-           d = sc.nextInt();;
-        } 
-        
-        EspiralCuadrada(d,d);
-        
-        }
-        
-        if(escoger == 2){
         System.out.println("Ingresar filas [n]: ");
         int n = sc.nextInt();
         
@@ -103,11 +94,7 @@ public class Main {
            m = sc.nextInt();;
         }
         
-        EspiralCuadrada(m,n);
-        }           
-        }
-
+        EspiralCuadrada(m,n);      
     }
-    
 }
 ```
