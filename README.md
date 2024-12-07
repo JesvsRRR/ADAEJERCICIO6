@@ -1,3 +1,11 @@
+# 1. Formulación del problema
+
+<p align="center">
+  <img src="image.png" alt="Imagen del ejercicio n°6" />
+</p>
+
+### Codigo completo
+
 ```bash
 import java.util.Scanner;
 
