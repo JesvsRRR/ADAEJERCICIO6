@@ -221,4 +221,5 @@ public class Main {
   
 - Complejidad de espacio:
   - a) Matriz rectangular: 𝑂(d x e)
-  - b) Matriz cuadratica: 𝑂(d²)   
+  - b) Matriz cuadratica: 𝑂(d²)
+El tiempo y el espacio dependen directamente del número de elementos en la matriz, ya que el recorrido en espiral y el almacenamiento procesan todos los valores una vez.
